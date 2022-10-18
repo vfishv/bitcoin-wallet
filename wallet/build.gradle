@@ -41,10 +41,11 @@ ext {
 }
 
 android {
-    compileSdkVersion 'android-31'
-    buildToolsVersion '33.0.0'
+    compileSdkVersion 33
+    //buildToolsVersion '33.0.0'
 
     defaultConfig {
+        minSdkVersion 24
         applicationId 'de.schildbach'
         dexOptions {
             preDexLibraries false
